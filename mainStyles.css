@@ -39,6 +39,9 @@ html, body {
     top: 50%;
     transform: translateY(-50%);
 }
+main h1, main h2, main h3{
+    text-align: center;
+}
 a {
     color: var(--white);
 }
@@ -218,6 +221,8 @@ main {
     overflow-x: clip;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    
 }
 main > h2, main > p{
     color: var(--menuColor);
@@ -231,6 +236,7 @@ h3 {
 #introduction {
     font-weight: bold;
     text-align: justify;
+    width: 100%;
 }
 
 /* Sections inside main */
@@ -244,6 +250,7 @@ section {
     display: flex;
     flex-direction: column;
 }
+
 section h1, section p {
     text-align: justify;
     margin: 15px 0px;
@@ -445,7 +452,7 @@ footer > div {
     main {
         flex-direction: row;
         align-content: center;
-        justify-content: space-evenly;
+        justify-content: space-around;
         flex-wrap: wrap;
         min-height: 80vh;
     }
