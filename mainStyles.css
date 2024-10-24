@@ -44,6 +44,8 @@ main h1, main h2, main h3{
 }
 a {
     color: var(--white);
+    padding: 2px;
+    margin: 2px;
 }
 a:visited {
     color: var(--white);
@@ -221,7 +223,6 @@ main {
     overflow-x: clip;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     
 }
 main > h2, main > p{
@@ -236,7 +237,7 @@ h3 {
 #introduction {
     font-weight: bold;
     text-align: justify;
-    width: 100%;
+    width: 80%;
 }
 
 /* Sections inside main */
@@ -258,6 +259,7 @@ section h1, section p {
 
 section > img {
     width: 100%;
+    max-height: 50%;
 }
 .bottomHalf {
     position: relative;
@@ -346,6 +348,7 @@ footer > div {
 
     width: 200px;
     height: 200px;
+    padding: 0;
     margin: 5%;
     flex: 0 0 auto;
 
@@ -475,7 +478,7 @@ footer > div {
         padding: 5%;
         display: flex;
         flex-direction: column;
-        justify-content: space-around;
+        justify-content:space-between;
     }
 
     #productSpace {
@@ -515,7 +518,7 @@ footer > div {
         font-size: large;
         flex: 1;
         max-height: 20%;
-        margin: 10px;
+        margin-top: 10px;
     }
 
     #complements {
